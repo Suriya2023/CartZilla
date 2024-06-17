@@ -6,6 +6,9 @@ import CardSection from './Component/CardSection';
 import FlexContent from './Component/FlexConTent2';
 import Card2 from './Component/Card2';
 import CarOusel from './Component/CarOusel';
+import Gride from './Component/gride';
+import Iphone from './Component/iphone';
+import Theams from './Component/Theams'
 
 function App() {
   // const [mode, setMode] = useState("light")
@@ -54,6 +57,9 @@ function App() {
       <FlexContent mystyle={mystyle} />
       <Card2 mystyle={mystyle} />
       <CarOusel mystyle={mystyle}/>
+      <Gride mystyle = {mystyle} />
+      <Iphone mystyle = {mystyle} />
+      <Theams  mystyle = {mystyle} />
 
     </>
 
