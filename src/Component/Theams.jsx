@@ -13,7 +13,7 @@ function iphone(props) {
                     <div className="myq2r" id='myqr2'>
                         <button id='btn1'>Colors</button>
                         <br /><br />
-                        <h4>Change theme brand colors <br />
+                        <h4 id='mcseven'>Change theme brand colors <br />
                             quickly and easily</h4>
 
                         <span id="spanid">Customize theme colors to match your brand palette using the color picker or just type in the color hex. Supported colors: primary, warning, success, info, danger.</span>
@@ -27,7 +27,7 @@ function iphone(props) {
                     <div className="nidnsi">
                         <button id='btn1'>Colors</button>
 
-                        <h4>Change theme brand colors <br />
+                        <h4 id='mcseven'>Change theme brand colors <br />
                             quickly and easily</h4>
 
                         <span id="spanid">Customize theme colors to match your brand palette using the color picker or just type in the color hex. Supported colors: primary, warning, success, info, danger.</span>

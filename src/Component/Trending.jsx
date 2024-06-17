@@ -31,7 +31,7 @@ function iphone(props) {
                     <div className="myq2r" id='myqr2'>
                         <button id='btn12'>Typography</button>
                         <br /><br />
-                        <h4>Set up fonts from the huge Google font collection</h4>
+                        <h4 id='mcseven'>Set up fonts from the huge Google font collection</h4>
 
                         <span id="spanid">Easily change the font to your liking. Choose the font from Google Fonts library of 1,600+ open source font families. Update headings and body font sizes right from customizer..</span>
                         <br /><br />
@@ -53,7 +53,7 @@ function iphone(props) {
                     <div className="myq2r" id='myqr2'>
                         <button id='btn13'>Borders</button>
                         <br /><br />
-                        <h4>Rounded or square? Customize borders as you wish</h4>
+                        <h4 id='mcseven'>Rounded or square? Customize borders as you wish</h4>
 
                         <span id="spanid">It's up to you to make your website soft and friendly with increased border radius or add business vibes with less rounded shapes. Additionally, you can adjust the border width.</span>
                         <br /><br />

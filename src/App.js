@@ -69,6 +69,10 @@ function App() {
       <Theams mystyle={mystyle} />
       <Trending mystyle={mystyle} />
       <Footer  mystyle ={mystyle}/>
+
+
+
+          
     </>
 
   );

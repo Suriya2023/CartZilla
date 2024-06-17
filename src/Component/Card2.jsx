@@ -19,6 +19,7 @@ function Card2(props) {
                     </ul>
                 </div>
                 <div className="cardgd2"style={props.mystyle}>
+                    <br /><br />
                     <ul id='twe'>
                         <li></li>
                         <li></li>

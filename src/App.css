@@ -7,7 +7,9 @@
 .card-img-overlay {
   overflow: hidden;
 }
-
+#nonefav{
+  display: none;
+}
 /* .mainbg{
   width: 100%;
   background-size: contain;
@@ -349,6 +351,11 @@ margin-top: -8px;
   color: gray;
 }
 
+@media screen and (max-width:599px) {
+  #gdimg {
+    width: 13vmin;
+  }
+}
 
 @media screen and (max-width:550px) {
 
@@ -560,8 +567,9 @@ margin-top: -8px;
 #boomimg {
   width: 100%;
 }
-.container-fluid{
-  
+
+.container-fluid {
+
   padding-top: 10px;
   padding-bottom: 15px;
 }
@@ -841,7 +849,8 @@ input:checked+.slider:before {
   /* width: 100%; */
   align-items: center;
 }
-#awq{
+
+#awq {
   background-color: #d85464;
   padding: 5px 15px;
   border-radius: 5px;
@@ -849,6 +858,7 @@ input:checked+.slider:before {
   color: white;
   border: none;
 }
+
 .form-switch {
   padding-left: 2.5em;
   display: none;
@@ -910,7 +920,8 @@ input:checked+.slider:before {
   z-index: 55;
   width: 100%;
 }
-.rrr{
+
+.rrr {
   text-align: center;
   margin: 0 auto;
 }
@@ -920,12 +931,192 @@ input:checked+.slider:before {
   color: #303136;
 }
 
-.rrr a  span:hover{
+.rrr a span:hover {
   text-decoration: underline;
 }
+
 @media screen and (max-width:768px) {
-  .footercontainer{
-      padding: 5vmin;
-  }   
+  .footercontainer {
+    padding: 5vmin;
+  }
+
+}
+
+
+
+/* @media screen  and (min-width:1600px) and (max-width:2861) {
   
+} */
+
+
+@media (min-width: 1450px) {
+  #one>li {
+    line-height: 83px;
+  }
+
+  #one {
+    font-size: 36px;
+
+  }
+
+  .display-5 {
+    font-size: 5.5rem;
+
+  }
+
+  #multi {
+    font-size: 6vmin;
+
+  }
+
+  #mcone {
+    justify-content: space-between;
+    width: 50%;
+    display: flex;
+    font-size: 2vmin;
+  }
+
+  #mctwo {
+    margin-left: 25px;
+  }
+
+  #thisDis,
+  #Lolo {
+    display: flex;
+    vertical-align: middle;
+    display: flex;
+    font-size: 4vmin;
+    align-items: center;
+  }
+
+  #mcthree {
+    font-size: 3vmin;
+  }
+
+  .card-title {
+    line-height: 84px;
+    font-size: 4vmin;
+  }
+
+  .card-text {
+    font-size: 2vmin;
+    line-height: 3vmin;
+
+
+  }
+
+  .card-img-overlay {
+    /* overflow: hidden; */
+    padding: 41px;
+  }
+
+  .cardtext strong {
+    /* color: black; */
+    /* font-weight: 600; */
+    font-size: 2.5vmin;
+  }
+
+  #mcfor {
+    font-size: 5vmin;
+  }
+
+  #gray {
+    font-size: 3.5vmin;
+
+  }
+
+  #center {
+    text-align: center;
+    font-size: 5vmin;
+    margin-bottom: 5vmin;
+  }
+
+  #gdimg {
+    width: 7vmin;
+  }
+
+  .mygrideicon {
+    grid-template-columns: repeat(auto-fit, minmax(600px, 50fr));
+
+  }
+
+  .grideiconne>h5 {
+    /* color: red; */
+    font-weight: 600;
+    font-size: 2.7vmin;
+  }
+
+
+  .grideiconne {
+    height: 361px;
+
+  }
+
+  #mcsix {
+    font-size: 2vmin;
+  }
+
+  .myqr span {
+    color: gray;
+    font-size: 2vmin;
+  }
+
+  .myqr strong {
+    color: gray;
+    font-size: 2vmin;
+  }
+
+  #btn1 {
+    padding: 1.5vmin;
+    border-radius: 23px;
+    font-size: 4vmin;
+  }
+
+  #btn12 {
+    padding: 1.5vmin;
+    border-radius: 23px;
+    font-size: 4vmin;
+  }
+
+  #btn13 {
+    padding: 1.5vmin;
+    border-radius: 23px;
+    font-size: 4vmin;
+  }
+
+
+  #mcseven {
+    font-size: 4.5rem;
+    margin-bottom: 2vmin;
+  }
+
+  #spanid {
+    font-size: 2vmin;
+  }
+
+  #lopk {
+    font-size: 3vmin;
+  }
+
+  .text-dark {
+    font-size: 5vmin;
+  }
+
+  #awq {
+    padding: 7px 40px;
+    border-radius: 28px;
+    font-size: 3.3vmin;
+  }
+
+  .rrr a {
+    font-size: 2vmin;
+    padding-bottom: 113px;
+  }
+  #nonefav{
+    display: block;
+  }
+  .d-none{
+    visibility: hidden;
+    display: none;
+  }
 }
