@@ -560,6 +560,11 @@ margin-top: -8px;
 #boomimg {
   width: 100%;
 }
+.container-fluid{
+  
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
 
 .griditem {
   position: relative;
@@ -872,7 +877,7 @@ input:checked+.slider:before {
   background-color: white;
   position: fixed;
   z-index: 55;
-  padding-top: 16px;
+  /* padding-top: 16px; */
   width: 100%;
 
 }

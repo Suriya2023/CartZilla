@@ -1,5 +1,4 @@
 import React from 'react'
-
 function CarOusel(props) {
   return (
     <div>
@@ -9,6 +8,10 @@ function CarOusel(props) {
             {/* <h1>Switch Between Light & Dark Mode</h1> */}
             <img  id="boomimg" src="https://cartzilla.createx.studio/assets/img/intro/dark-mode.jpg" alt="..."/>
             <img  id="boomimg" src="https://cartzilla.createx.studio/assets/img/intro/light-mode.jpg" alt="..."/>
+
+            {/* <img  id="boomimg" src="{props.Demo}" alt="..."/> */}
+
+            {/* <img src="demo" alt="" /> */}
           </div>
 
         </div>

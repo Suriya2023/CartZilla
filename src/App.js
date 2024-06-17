@@ -11,6 +11,8 @@ import Iphone from './Component/Iphone';
 import Theams from './Component/Theams';
 import Trending from './Component/Trending';
 import Footer from './Component/Footer';
+// import Demo from './Image/File.png'
+
 
 function App() {
   // const [mode, setMode] = useState("light")
@@ -61,6 +63,7 @@ function App() {
       <FlexContent mystyle={mystyle} />
       <Card2 mystyle={mystyle} />
       <CarOusel mystyle={mystyle} />
+      {/* <CarOusel mystyle={mystyle} Demo={Demo} /> */}
       <Gride mystyle={mystyle} />
       <Iphone mystyle={mystyle} />
       <Theams mystyle={mystyle} />
