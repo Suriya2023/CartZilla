@@ -1,11 +1,31 @@
 import React from 'react'
 
 function CardSection(props) {
+
+  // let a = document.querySelectorAll('.griditem')
+  // window.addEventListener("scroll", Suraj);
+  // Suraj();
+
+  // function Suraj(){
+  //   let b = window.innerHeight / 2 * 2 ;
+  //   a.forEach(griditem =>
+  //     {
+  //     let c =  griditem.getBoundingClientRect().bottom;
+  //       if  (c < b){
+  //         griditem.add('show')
+  //       }
+  //       else{
+  //         griditem.remove('show')
+  //       }
+  //     }
+  //   )
+  // }
+
   return (
     <div className='conatiner' style={props.mystyle}>
       
       <div className="gridConatiner" >
-        <div className="griditem" style={props.mystyle}>
+        <div className="griditem"style={props.mystyle}>
           {/* "bg-success p-2" style="--bs-bg-opacity: .5;" */}
           <div className="card " style={props.mystyle}>
             <br /><br /><br /><br />&nbsp;

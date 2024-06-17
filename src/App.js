@@ -6,9 +6,11 @@ import CardSection from './Component/CardSection';
 import FlexContent from './Component/FlexConTent2';
 import Card2 from './Component/Card2';
 import CarOusel from './Component/CarOusel';
-import Gride from './Component/gride';
-import Iphone from './Component/iphone';
-import Theams from './Component/Theams'
+import Gride from './Component/Gride';
+import Iphone from './Component/Iphone';
+import Theams from './Component/Theams';
+import Trending from './Component/Trending';
+import Footer from './Component/Footer';
 
 function App() {
   // const [mode, setMode] = useState("light")
@@ -49,6 +51,8 @@ function App() {
 
     }
   }
+
+  
   return (
     <>
       <Navbar toggleBtn={toggleBtn} mystyle={mystyle} />
@@ -56,11 +60,12 @@ function App() {
       <CardSection mystyle={mystyle} />
       <FlexContent mystyle={mystyle} />
       <Card2 mystyle={mystyle} />
-      <CarOusel mystyle={mystyle}/>
-      <Gride mystyle = {mystyle} />
-      <Iphone mystyle = {mystyle} />
-      <Theams  mystyle = {mystyle} />
-
+      <CarOusel mystyle={mystyle} />
+      <Gride mystyle={mystyle} />
+      <Iphone mystyle={mystyle} />
+      <Theams mystyle={mystyle} />
+      <Trending mystyle={mystyle} />
+      <Footer  mystyle ={mystyle}/>
     </>
 
   );
