@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.mysmaler{
+  font-size: 1.7vmin;
+  color: gray;
 
+}
 .card-img-overlay {
   overflow: hidden;
 }
@@ -22,7 +26,9 @@
 #center {
   text-align: center;
 }
-
+.dropdown-item{
+  color: blue;
+}
 #centerh1 {
   text-align: center;
   font-size: 6vmin;
@@ -244,7 +250,7 @@ margin-top: -8px;
   /* border-radius: 50%; */
   height: 5px;
   /* overflow: hidden; */
-  background: linear-gradient(90deg, transparent, rgb(176, 89, 74));
+  background: linear-gradient(90deg, transparent,blue);
   animation: btn-anim1 2s linear infinite;
 }
 
@@ -668,7 +674,13 @@ margin-top: -8px;
   background-color: aqua;
 }
 
-
+@media screen and (max-width:621px) {
+  .mysmaler{
+    font-size: 5vmin;
+    color: gray;
+  
+  }
+}
 
 @media screen and (max-width:991px) {
   #ThisHidden {
@@ -687,7 +699,7 @@ margin-top: -8px;
   .card-text {
     display: none;
   }
-
+  
 
 
 }
@@ -1118,5 +1130,14 @@ input:checked+.slider:before {
   .d-none{
     visibility: hidden;
     display: none;
+  }
+  .mysmaler{
+    font-size: 2vmin;
+    color: gray;
+  
+  }
+  .dropdown-item{
+    color: blue;
+    font-size: 3vmin;
   }
 }
